@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+  <title><!-- TODO: Page Title --></title>
+  <meta name="description" content="<!-- TODO: 155–160 char description for SEO -->" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#0ea5e9" />
+
+  <!-- Canonical & robots -->
+  <link rel="canonical" href="https://example.com/" />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Favicons (replace with your own) -->
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- Open Graph / Twitter (social previews) -->
+  <meta property="og:title" content="<!-- TODO: OG Title -->" />
+  <meta property="og:description" content="<!-- TODO: OG Description -->" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com/" />
+  <meta property="og:image" content="https://example.com/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="<!-- TODO: Twitter Title -->" />
+  <meta name="twitter:description" content="<!-- TODO: Twitter Description -->" />
+  <meta name="twitter:image" content="https://example.com/og-image.jpg" />
+
+  <!-- Preconnect/preload examples (optional) -->
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+  <!-- <link rel="preload" as="image" href="/hero.jpg" imagesrcset="/hero@2x.jpg 2x" /> -->
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/styles.css" />
+
+  <script>
+    // Replace 'no-js' with 'js' on load for progressive enhancement
+    document.documentElement.classList.replace('no-js', 'js');
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header role="banner" class="site-header">
+    <nav aria-label="Primary" class="site-nav">
+      <a href="/" class="logo" aria-label="Home">MySite</a>
+      <ul class="nav-list" role="list">
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/resume.pdf" rel="noopener" target="_blank">Résumé</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title">Hello, I’m <!-- Your Name --></h1>
+      <p>CS student building fast, accessible web apps.</p>
+      <p><a href="/projects" class="btn">See my work</a></p>
+    </section>
+
+    <section aria-labelledby="recent-work">
+      <h2 id="recent-work">Recent Work</h2>
+      <article>
+        <h3><a href="#">Project Title</a></h3>
+        <p>Short one-line problem → solution → impact summary.</p>
+        <ul>
+          <li>Tech: HTML, CSS, JS</li>
+          <li><a href="#" target="_blank" rel="noopener">Live Demo</a> · <a href="#" target="_blank" rel="noopener">Source</a></li>
+        </ul>
+      </article>
+      <!-- Repeat articles as needed -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> <!-- Your Name --> · <a href="https://github.com/youruser">GitHub</a> · <a href="https://www.linkedin.com/in/youruser">LinkedIn</a></p>
+  </footer>
+
+  <!-- Scripts -->
+  <script type="module">
+    // Minimal JS example
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <!-- <script src="/main.js" defer></script> -->
+  <noscript>This site works best with JavaScript enabled (but core content is still accessible).</noscript>
+</body>
+</html>
