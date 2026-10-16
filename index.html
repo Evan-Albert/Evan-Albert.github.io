@@ -4,42 +4,28 @@
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
-  <title><!-- TODO: Page Title --></title>
-  <meta name="description" content="<!-- TODO: 155–160 char description for SEO -->" />
+  <title>Evan Albert — Computer Science Student</title>
+  <meta name="description" content="Evan Albert is a senior Computer Science student at Oregon State University, looking for software engineering internship and new-grad opportunities." />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="color-scheme" content="light dark" />
-  <meta name="theme-color" content="#0ea5e9" />
+  <meta name="theme-color" content="#2563eb" />
 
-  <!-- Canonical & robots -->
-  <link rel="canonical" href="https://example.com/" />
+  <link rel="canonical" href="https://evan-albert.github.io/" />
   <meta name="robots" content="index,follow" />
 
-  <!-- Favicons (replace with your own) -->
-  <link rel="icon" href="/favicon.ico" sizes="any" />
-  <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="icon" href="favicon.ico" sizes="any" />
 
-  <!-- Open Graph / Twitter (social previews) -->
-  <meta property="og:title" content="<!-- TODO: OG Title -->" />
-  <meta property="og:description" content="<!-- TODO: OG Description -->" />
+  <meta property="og:title" content="Evan Albert — Computer Science Student" />
+  <meta property="og:description" content="Senior CS student at Oregon State University, looking for software engineering opportunities." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://example.com/" />
-  <meta property="og:image" content="https://example.com/og-image.jpg" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="<!-- TODO: Twitter Title -->" />
-  <meta name="twitter:description" content="<!-- TODO: Twitter Description -->" />
-  <meta name="twitter:image" content="https://example.com/og-image.jpg" />
+  <meta property="og:url" content="https://evan-albert.github.io/" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Evan Albert — Computer Science Student" />
+  <meta name="twitter:description" content="Senior CS student at Oregon State University, looking for software engineering opportunities." />
 
-  <!-- Preconnect/preload examples (optional) -->
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
-  <!-- <link rel="preload" as="image" href="/hero.jpg" imagesrcset="/hero@2x.jpg 2x" /> -->
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="styles.css" />
 
   <script>
-    // Replace 'no-js' with 'js' on load for progressive enhancement
     document.documentElement.classList.replace('no-js', 'js');
   </script>
 </head>
@@ -49,47 +35,235 @@
 
   <header role="banner" class="site-header">
     <nav aria-label="Primary" class="site-nav">
-      <a href="/" class="logo" aria-label="Home">MySite</a>
+      <a href="#top" class="logo" aria-label="Evan Albert — home">
+        <span class="logo-badge" aria-hidden="true">EA</span>
+        <span class="logo-name">Evan Albert</span>
+      </a>
       <ul class="nav-list" role="list">
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/resume.pdf" rel="noopener" target="_blank">Résumé</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="resume.pdf" class="nav-resume" rel="noopener" target="_blank">Résumé</a></li>
       </ul>
     </nav>
   </header>
 
   <main id="main" tabindex="-1">
-    <section class="hero" aria-labelledby="hero-title">
-      <h1 id="hero-title">Hello, I’m <!-- Your Name --></h1>
-      <p>CS student building fast, accessible web apps.</p>
-      <p><a href="/projects" class="btn">See my work</a></p>
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-text">
+        <p class="eyebrow">Senior &middot; Oregon State University</p>
+        <h1 id="hero-title">Evan Albert</h1>
+        <p class="hero-sub">
+          Computer Science student who has interned building internal data
+          platforms and tools, and builds full-stack apps on the side.
+          Currently looking for a software engineering internship or
+          new-grad role.
+        </p>
+        <div class="hero-actions">
+          <a href="resume.pdf" class="btn btn-primary" rel="noopener" target="_blank">View Résumé</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+        <ul class="hero-meta" role="list">
+          <li>Danville, CA</li>
+          <li>B.S. Computer Science &middot; Expected June 2027</li>
+        </ul>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="avatar-badge">EA</div>
+      </div>
     </section>
 
-    <section aria-labelledby="recent-work">
-      <h2 id="recent-work">Recent Work</h2>
-      <article>
-        <h3><a href="#">Project Title</a></h3>
-        <p>Short one-line problem → solution → impact summary.</p>
-        <ul>
-          <li>Tech: HTML, CSS, JS</li>
-          <li><a href="#" target="_blank" rel="noopener">Live Demo</a> · <a href="#" target="_blank" rel="noopener">Source</a></li>
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">About</h2>
+      <div class="about-grid">
+        <p>
+          I'm a senior at Oregon State University studying Computer Science,
+          graduating in June 2027. Most recently I interned at AGC Biologics
+          as an MSAT Intern, where I built internal data tools and
+          dashboards used by manufacturing and process development teams.
+          Outside of class, I build full-stack side projects, and I'm active
+          in ACM Club and OSU Esports.
+        </p>
+        <aside class="fact-card" aria-label="Quick facts">
+          <dl>
+            <div class="fact">
+              <dt>Education</dt>
+              <dd>B.S. Computer Science, Oregon State University (GPA 3.54)</dd>
+            </div>
+            <div class="fact">
+              <dt>Graduating</dt>
+              <dd>June 2027</dd>
+            </div>
+            <div class="fact">
+              <dt>Looking for</dt>
+              <dd>SWE internship / new-grad role</dd>
+            </div>
+            <div class="fact">
+              <dt>Based in</dt>
+              <dd>Danville, CA</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section id="experience" aria-labelledby="experience-title">
+      <h2 id="experience-title">Experience</h2>
+      <div class="experience-item">
+        <div class="experience-header">
+          <div>
+            <h3 class="experience-role">MSAT Intern <span class="experience-company">&middot; AGC Biologics</span></h3>
+            <p class="experience-location">Bothell, WA</p>
+          </div>
+          <p class="experience-dates">Mar 2025 – Sep 2025</p>
+        </div>
+        <ul class="experience-list" role="list">
+          <li>Designed a cloud-ready internal data platform and wrote the technical architecture and executive summary that guided adoption across Process Dev and MSAT teams.</li>
+          <li>Built a low-code dashboard in Power Apps and Power Automate for 50+ business and process development staff, with role-based access control and full create/read/update/delete workflows — no added M365 licensing.</li>
+          <li>Built a data orchestrator that aggregates schedules, batch records, and chemical inventory from SharePoint, Teams, and OneDrive for 25+ scientists, kept in sync via 10+ automated pipelines.</li>
+          <li>Supported validation of a new distributed control system by reviewing automation logic against safety data sheets across 50+ process modules and tracking issues through to resolution.</li>
+          <li>Introduced UX guidelines and reusable components for internal tools, improving task completion and cutting training time for new users.</li>
         </ul>
-      </article>
-      <!-- Repeat articles as needed -->
+      </div>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+      <div class="project-card">
+        <div class="project-header">
+          <h3>Run For Your Life (RFYL)</h3>
+          <p class="project-dates">Mar 2025 – Present</p>
+        </div>
+        <p class="project-tagline">Full-stack location game where closed-loop runs claim real-world territory.</p>
+        <ul class="pill-list" role="list">
+          <li class="pill">Node.js / Express</li>
+          <li class="pill">TypeScript</li>
+          <li class="pill">PostgreSQL</li>
+          <li class="pill">Render</li>
+          <li class="pill">Jest</li>
+          <li class="pill">GitHub Actions</li>
+        </ul>
+        <ul class="experience-list" role="list">
+          <li>Designed the schema (Users/Runs/Territories/Leaderboard) and route-validation logic end-to-end.</li>
+          <li>Implemented real-time location capture with anti-spoofing checks (speed/teleport detection) and indexed queries for fast territory and leaderboard reads.</li>
+          <li>Set up CI-gated testing — unit, integration, and E2E (Jest/Puppeteer) — with coverage reporting and PR status checks.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills</h2>
+      <div class="skills-groups">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul class="pill-list" role="list">
+            <li class="pill">Python</li>
+            <li class="pill">Java</li>
+            <li class="pill">JavaScript</li>
+            <li class="pill">C++</li>
+            <li class="pill">C#</li>
+            <li class="pill">SQL</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools &amp; Platforms</h3>
+          <ul class="pill-list" role="list">
+            <li class="pill">Git</li>
+            <li class="pill">Linux / Ubuntu</li>
+            <li class="pill">MongoDB</li>
+            <li class="pill">Power Apps</li>
+            <li class="pill">Power BI</li>
+            <li class="pill">Excel &amp; PowerPoint</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Relevant Coursework</h3>
+          <ul class="pill-list" role="list">
+            <li class="pill">Data Structures &amp; Algorithms</li>
+            <li class="pill">Software Engineering I &amp; II</li>
+            <li class="pill">Machine Learning &amp; Data Mining</li>
+            <li class="pill">Databases</li>
+            <li class="pill">Web Development</li>
+            <li class="pill">Operating Systems I &amp; II</li>
+            <li class="pill">Computer Networks</li>
+            <li class="pill">Computer Security</li>
+            <li class="pill">Computer Architecture &amp; Assembly</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <p class="section-intro">The best ways to reach me:</p>
+      <ul class="contact-grid" role="list">
+        <li>
+          <a class="contact-card" href="mailto:evanalbert949@gmail.com">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"/><path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"/></svg>
+            </span>
+            <span class="contact-label">
+              <span class="contact-title-text">Email</span>
+              <span class="contact-sub">evanalbert949@gmail.com</span>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a class="contact-card" href="https://github.com/Evan-Albert" rel="noopener" target="_blank">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.333-1.755-1.333-1.755-1.089-.744.084-.729.084-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.417-1.305.76-1.605-2.665-.303-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </span>
+            <span class="contact-label">
+              <span class="contact-title-text">GitHub</span>
+              <span class="contact-sub">@Evan-Albert</span>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a class="contact-card" href="https://linkedin.com/in/evan-albert" rel="noopener" target="_blank">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </span>
+            <span class="contact-label">
+              <span class="contact-title-text">LinkedIn</span>
+              <span class="contact-sub">in/evan-albert</span>
+            </span>
+          </a>
+        </li>
+      </ul>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>© <span id="year"></span> <!-- Your Name --> · <a href="https://github.com/youruser">GitHub</a> · <a href="https://www.linkedin.com/in/youruser">LinkedIn</a></p>
+    <p>
+      © <span id="year"></span> Evan Albert ·
+      <a href="https://github.com/Evan-Albert" rel="noopener" target="_blank">GitHub</a> ·
+      <a href="https://linkedin.com/in/evan-albert" rel="noopener" target="_blank">LinkedIn</a>
+    </p>
   </footer>
 
-  <!-- Scripts -->
   <script type="module">
-    // Minimal JS example
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    const sections = document.querySelectorAll('main section[id]');
+    const links = document.querySelectorAll('.nav-list a[href^="#"]');
+    if ('IntersectionObserver' in window && sections.length && links.length) {
+      const byId = new Map(Array.from(links).map((a) => [a.getAttribute('href').slice(1), a]));
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            const link = byId.get(entry.target.id);
+            if (!link) return;
+            link.classList.toggle('active', entry.isIntersecting);
+          });
+        },
+        { rootMargin: '-40% 0px -55% 0px' }
+      );
+      sections.forEach((s) => observer.observe(s));
+    }
   </script>
-  <!-- <script src="/main.js" defer></script> -->
   <noscript>This site works best with JavaScript enabled (but core content is still accessible).</noscript>
 </body>
 </html>
